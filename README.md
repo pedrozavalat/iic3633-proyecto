@@ -13,10 +13,20 @@
 
 ## Vermont images 
 ```markdown
-https://www.dropbox.com/scl/fi/wcawrg8pjxmm3q7a0t9q2/images.zip?rlkey=g85j5mlagpntf3yhgthz011lg&st=xdsk0g2y&dl=0
+# Dataset con reviews de solamente restaurantes
+!wget https://www.dropbox.com/scl/fi/cebo44ixv3003vba68pio/reviews_vermont.csv?rlkey=l272gentnbu9euyzixn32kig2&st=x461x04h&dl=0
+````
+```markdown
+# Carpeta de imagenes formato png del dataframe
+!wget https://www.dropbox.com/scl/fi/h5rjz0bmrqzfgpbr1d56t/new_images.zip?rlkey=00x7kxvw7qquloqvhxdai70dn&st=rv1qn7f3&dl=0
+
+!mv new_images.zip?rlkey=00x7kxvw7qquloqvhxdai70dn images.zip
+!mv reviews_vermont.csv?rlkey=l272gentnbu9euyzixn32kig2 reviews_vermont.csv
+!unzip -qq images.zip
 ```
 
-## Dataframe Vermont
-```
-https://www.dropbox.com/scl/fi/t2ynnlj5s4q9k59byyw0q/reviews_vermont.csv?rlkey=vcu3b6lqd8ahfg69h1h7iwv0b&st=da5p0jzz&dl=0
-```
+# Data 
+## Images Embeddings
+* Embeddings descargados en un archivo numpy para poder entrenar modelos CDL y VBPR (toma 11 minutos obtener las features en codigo). 
+- `/data/imgs_features.npy`
+

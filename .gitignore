@@ -2,3 +2,5 @@
 *.pdf
 *.log
 *.aux
+data/reviews.zip
+*.csv

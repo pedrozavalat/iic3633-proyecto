@@ -4,3 +4,4 @@
 *.aux
 data/
 *.csv
+data/imgs_features.npy

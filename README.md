@@ -51,7 +51,7 @@ de restaurantes utilizando modelos multimodales. En este caso, utilizamos LLMs c
 # Consideraciones generales
 Antes de obtener las listas de recomendaciones se tienen que tomar las siguientes consideraciones. 
 *  El conjunto de datos de las reviews, metadata, restaurantes, descripciones de imagenes con VG19, LLaVA y BLIP ya
-estan descargadas y se encuentran almacenados en un dropbox para llegar e importar. No es necesario importar nada: [ver links](#links-dropbox)
+estan descargadas y se encuentran almacenados en un dropbox para llegar e importar: [ver links](#links-dropbox)
 
 # Ejecuciones de archivos
 ### Random, Most Popular

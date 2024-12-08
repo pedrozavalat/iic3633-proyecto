@@ -11,7 +11,6 @@ de restaurantes utilizando modelos multimodales. En este caso, utilizamos LLMs c
 | Pedro Zavala   | @pedrozavalat   | pedropablozavalat@uc.cl  |
 
 ## Tabla de contenidos
-## Tabla de contenidos
 1. [Carpetas y archivos](#carpetas-y-archivos)
 2. [Consideraciones generales](#consideraciones-generales)
     
@@ -24,7 +23,7 @@ de restaurantes utilizando modelos multimodales. En este caso, utilizamos LLMs c
     2.4. [BLIP - KNN](#blip)
     
     2.5. [LightFM](#lightfm)
-    
+
 3. [Ejecuciones de archivos](#ejecuciones-de-archivos)
 4. [Dropbox](#links-dropbox)
 

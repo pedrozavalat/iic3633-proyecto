@@ -36,7 +36,7 @@ de restaurantes utilizando modelos multimodales. En este caso, utilizamos LLMs c
 
 * `iic3733_v1_models_baselines.ipynb`: contiene la experimentacion y generacion de listas de recomendacion utilizando modelos baselines, como Random y MostPopular. Además contiene otros modelos, como VBPR y CDL. 
 
-* `iic3633_review_generation_v2.ipynb`. contiene las explicaciones y generaciones de recomendaciones. 
+* `iic3633_explanation_generation_v2.ipynb`. contiene las explicaciones y generaciones de recomendaciones. 
 
 
 * `/utils`: carpeta que contiene codigo necesarios para la formacion del conjunto de datos.
@@ -110,6 +110,17 @@ debe definir la variable `D_IE = 0`.
 4. Para obtener resultados y metricas del modelo *LightFM + LLaVA*, se debe ejecutar las secciones de **Evaluation and Examples** directamente.
     Si se quiere obtener *LightFM Basic* (usando texto de las reseñas), se debe ejecutar el codigo que se encuentra al inicio de la seccion **Model LightFM + allMiniLLM** y antes de **Sensitivity Analysis**. Despues, se ejecuta el codigo de **Evaluation and Examples**. 
 
+## Ejecución Explicaciones
+
+### Flan-T5 Large
+1. Ejecutar códigos Setup, Librerias y Data Preprocessing seguidamente.
+2. En **Review Generation/Flan T5**, ejecutar ejecutar todas las celdas
+3. Para obtener resultados de explicación generada: Ejecutar código en **Evaluation** y **Evaluation/Evaluation of single case** en orden.
+
+### SmolLM2-1.7B-Instruct
+1. Ejecutar códigos Setup, Librerias y Data Preprocessing seguidamente.
+2. En **Review Generation/HuggingFace SMOL**, ejecutar ejecutar todas las celdas
+3. Para obtener resultados de explicación generada: Ejecutar código en **Evaluation** y **Evaluation/Evaluation of single case** en orden.
 
 
 # Links Dropbox

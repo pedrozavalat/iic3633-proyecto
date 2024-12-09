@@ -30,6 +30,9 @@ de restaurantes utilizando modelos multimodales. En este caso, utilizamos LLMs c
 
 # Carpetas y archivos
 > 📌  Guiarse con la tabla de contenidos de cada google colab.
+
+* `iic3633_data_analysis.ipynb`: contiene la experimentación con la data final a utilizar para conocer las características del dataset y entender las reviews que se están utilizando para entrenar los modelos.
+
 * `iic3633_BLIP.ipynb` y `iic3633_LLaVA_Tiny 2.ipynb`: contienen la definicion de los modelos, analisis de parametros, resultados basados en metricas de evaluacion y ejemplos de las listas de recomendacion. 
 
 * `iic3633_lightFM.ipynb`: contiene la experimentacion y generacion de listas de recomendacion utilizando lightFM con las descripciones realizadas por LLaVA y lightFM utilizando los comentarios de las reseñas. 
